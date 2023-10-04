@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding:40px 30px 70px;
+    border-radius: 10px; 
+}
+
+.todo h1 {
+    text-align: center;
+}
+.todo h1 img{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px; 
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background: transparent;
+}
+
+button {
+  
+    border: none;
+    outline: none;
+    padding: 26px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color: #092355;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #ccc;
+   
+}
+.delete {
+    background-color: #ff4b4b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+}

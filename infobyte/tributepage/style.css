@@ -1,0 +1,136 @@
+body {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+a {
+color:skyblue;
+}
+#image {
+    width: 70%;
+    height: 100%;
+    max-width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+   border: 5px solid blue;
+}
+#img-caption{
+    text-align: center;
+    font-family: monospace;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: navy;
+    margin-top: 25px;
+
+}
+#main {
+    background: skyblue;
+    padding-left: 10px;
+    display: inline-block;
+    line-height: 20px;
+}
+#title{
+    text-align: center;
+    font-size: 3vw;
+    color: navy;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px aqua;
+    text-decoration:underline ;
+    margin: top 40px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#tribute-info{
+    background: blueviolet;
+    color: white;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border-color: blue;
+    border-style: double;
+
+
+}
+u{
+  color: navy;  
+}
+h4{
+    text-align: center;
+    margin-top:0px ;
+    margin-bottom: 15px;
+    background:  navy;
+    color: white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius:8px ;
+}
+#tribute-link:hover{
+    color:white;
+
+}
+h5{
+    text-align: center;
+    margin-top:0px ;
+    margin-bottom: 15px;
+    background:  plum;
+    color: blue;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-size: large;
+}
+@media(max-width:600px){
+    #image {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        display: block;
+        margin-left: auto;
+  border: 3px solid yellow;
+    }
+
+    #main{
+        padding-left: 10px;
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+    #title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #img-caption{
+        text-align: center;
+        font-family: monospace;
+        font-size: 8px;
+        font-weight: bold;
+        margin-top: 0px ;    
+    }
+    #tribute-info{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    h4{
+       text-align: center;
+       margin-bottom: 5px;
+       padding-bottom:10px ;  
+       margin-right: 20px;
+       font-size: 12px;
+    }
+    #tribute-link:hover {
+        color:yellow;
+
+    }
+}
